@@ -14,3 +14,6 @@ export interface User {
   
   // Example for a functional component with typed props
   export type FunctionalComponentWithProps = React.FC<LandingProps>;  
+  export interface PillProps {
+    title: string
+  }
